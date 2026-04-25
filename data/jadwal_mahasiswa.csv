@@ -1,0 +1,51 @@
+student_id,student_name,day,start_time,end_time,course,major
+A001,Bintang,Monday,07:00,09:30,Algoritma,Informatika
+A001,Bintang,Monday,13:00,15:30,Struktur Data,Informatika
+A001,Bintang,Wednesday,10:30,13:00,Basis Data,Informatika
+A001,Bintang,Thursday,15:30,17:10,Sistem Operasi,Informatika
+A001,Bintang,Friday,09:30,12:00,Matematika Diskrit,Informatika
+A002,Fadil,Tuesday,07:00,09:30,Basis Data,Sistem Informasi
+A002,Fadil,Tuesday,13:00,14:40,Manajemen TI,Sistem Informasi
+A002,Fadil,Wednesday,09:30,12:00,Pemrograman Web,Sistem Informasi
+A002,Fadil,Thursday,15:30,17:10,Jaringan Komputer,Sistem Informasi
+A002,Fadil,Friday,07:00,08:40,Statistika,Sistem Informasi
+A003,Nia,Monday,10:30,13:00,Algoritma,Informatika
+A003,Nia,Tuesday,13:00,15:30,Struktur Data,Informatika
+A003,Nia,Wednesday,07:00,09:30,Sistem Operasi,Informatika
+A003,Nia,Thursday,09:30,11:10,Basis Data,Informatika
+A003,Nia,Friday,13:00,15:30,Kecerdasan Buatan,Informatika
+A004,Rizky,Monday,13:00,15:30,Basis Data,Sistem Informasi
+A004,Rizky,Tuesday,09:30,12:00,Manajemen Proyek,Sistem Informasi
+A004,Rizky,Wednesday,15:30,17:10,Jaringan,Sistem Informasi
+A004,Rizky,Thursday,07:00,09:30,Sistem Informasi Enterprise,Sistem Informasi
+A004,Rizky,Friday,10:30,13:00,Statistika,Sistem Informasi
+A005,Salsa,Monday,07:00,08:40,Matematika Dasar,Informatika
+A005,Salsa,Tuesday,10:30,13:00,Algoritma,Informatika
+A005,Salsa,Wednesday,13:00,15:30,Struktur Data,Informatika
+A005,Salsa,Thursday,09:30,12:00,Basis Data,Informatika
+A005,Salsa,Friday,15:30,17:10,Sistem Operasi,Informatika
+A006,Dika,Monday,09:30,12:00,Pemrograman Web,Sistem Informasi
+A006,Dika,Tuesday,13:00,15:30,Basis Data,Sistem Informasi
+A006,Dika,Wednesday,07:00,09:30,Manajemen TI,Sistem Informasi
+A006,Dika,Thursday,13:00,15:30,Jaringan Komputer,Sistem Informasi
+A006,Dika,Friday,09:30,11:10,Statistika,Sistem Informasi
+A007,Aulia,Monday,15:30,17:10,Matematika Diskrit,Informatika
+A007,Aulia,Tuesday,07:00,09:30,Algoritma,Informatika
+A007,Aulia,Wednesday,10:30,13:00,Struktur Data,Informatika
+A007,Aulia,Thursday,13:00,15:30,Basis Data,Informatika
+A007,Aulia,Friday,07:00,09:30,Kecerdasan Buatan,Informatika
+A008,Yoga,Monday,07:00,09:30,Basis Data,Sistem Informasi
+A008,Yoga,Tuesday,15:30,17:10,Jaringan,Sistem Informasi
+A008,Yoga,Wednesday,13:00,15:30,Manajemen Proyek,Sistem Informasi
+A008,Yoga,Thursday,09:30,12:00,Sistem Informasi Enterprise,Sistem Informasi
+A008,Yoga,Friday,10:30,13:00,Statistika,Sistem Informasi
+A009,Putri,Monday,10:30,13:00,Algoritma,Informatika
+A009,Putri,Tuesday,07:00,09:30,Struktur Data,Informatika
+A009,Putri,Wednesday,15:30,17:10,Sistem Operasi,Informatika
+A009,Putri,Thursday,13:00,15:30,Basis Data,Informatika
+A009,Putri,Friday,09:30,12:00,Kecerdasan Buatan,Informatika
+A010,Rafi,Monday,13:00,15:30,Pemrograman Web,Sistem Informasi
+A010,Rafi,Tuesday,10:30,13:00,Basis Data,Sistem Informasi
+A010,Rafi,Wednesday,07:00,09:30,Manajemen TI,Sistem Informasi
+A010,Rafi,Thursday,15:30,17:10,Jaringan,Sistem Informasi
+A010,Rafi,Friday,07:00,08:40,Statistika,Sistem Informasi
