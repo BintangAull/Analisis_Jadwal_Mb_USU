@@ -181,10 +181,60 @@ st.markdown("""
 @st.cache_data
 def load_and_process(path, grace_minutes=20):
     df = pd.read_csv(path)
-    df['start_time'] = pd.to_datetime(df['start_time'], format='%H:%M')
-    df['end_time'] = pd.to_datetime(df['end_time'], format='%H:%M')
-    df['day'] = df['day'].str.capitalize()
+    df.columns = df.columns.str.strip()
 
+    # =========================
+    # CLEAN TIME FORMAT
+    # =========================
+    df['start_time'] = df['start_time'].astype(str).str.replace('.', ':', regex=False)
+    df['end_time'] = df['end_time'].astype(str).str.replace('.', ':', regex=False)
+
+    # ✅ FIX: Parse hanya bagian jam:menit, normalisasi ke tanggal referensi 1900-01-01
+    # Ini mencegah mismatch tanggal saat dibandingkan dengan training_start
+    REFERENCE_DATE = "1900-01-01"
+
+    def parse_time_only(series):
+        """Parse HH:MM string -> datetime dengan tanggal referensi tetap 1900-01-01"""
+        # Ambil hanya HH:MM (2 komponen pertama)
+        cleaned = series.str.extract(r'(\d{1,2}:\d{2})')[0]
+        return pd.to_datetime(REFERENCE_DATE + " " + cleaned, format="%Y-%m-%d %H:%M", errors='coerce')
+
+    df['start_time'] = parse_time_only(df['start_time'])
+    df['end_time'] = parse_time_only(df['end_time'])
+
+    # =========================
+    # VALIDATION TIME
+    # =========================
+    invalid_time = df[df['start_time'].isna() | df['end_time'].isna()]
+    if not invalid_time.empty:
+        st.error("🚨 Format jam tidak valid ditemukan")
+        st.dataframe(invalid_time)
+        st.stop()
+
+    # =========================
+    # CLEAN DAY FORMAT
+    # =========================
+    day_map = {
+        'Senin': 'Monday',
+        'Selasa': 'Tuesday',
+        'Rabu': 'Wednesday',
+        'Kamis': 'Thursday',
+        'Jumat': 'Friday'
+    }
+
+    df['day'] = df['day'].str.strip().map(day_map)
+
+    # =========================
+    # VALIDATION DAY
+    # =========================
+    if df['day'].isna().any():
+        st.error("🚨 Ada nama hari yang tidak dikenali")
+        st.dataframe(df[df['day'].isna()])
+        st.stop()
+
+    # =========================
+    # MAIN LOGIC
+    # =========================
     last_class = (
         df.groupby(['student_id', 'student_name', 'major', 'day'])
         .agg(
@@ -198,7 +248,9 @@ def load_and_process(path, grace_minutes=20):
 
 
 def analyze(last_class, training_start_str, grace_minutes, selected_days, selected_majors):
-    training_start = pd.to_datetime(training_start_str, format='%H:%M')
+    # ✅ FIX: Gunakan tanggal referensi yang sama dengan load_and_process
+    REFERENCE_DATE = "1900-01-01"
+    training_start = pd.to_datetime(f"{REFERENCE_DATE} {training_start_str}", format="%Y-%m-%d %H:%M")
     grace_limit = training_start + pd.Timedelta(minutes=grace_minutes)
 
     # Filter major dulu
@@ -318,8 +370,9 @@ if uploaded:
     raw_df, last_class = load_and_process(uploaded)
 elif use_sample:
     try:
-        raw_df, last_class = load_and_process('./data/jadwal_mahasiswa.csv')
-    except:
+        raw_df, last_class = load_and_process('data/jadwal_mahasiswa.csv')
+    except Exception as e:
+        print(f"Error loading sample data: {e}")
         st.error("⚠️ File sample tidak ditemukan. Silakan upload CSV jadwal.")
         st.stop()
 else:

@@ -285,7 +285,7 @@ if uploaded:
     raw_df, last_class = load_and_process(uploaded)
 elif use_sample:
     try:
-        raw_df, last_class = load_and_process('./data/jadwal_mahasiswa.csv')
+        raw_df, last_class = load_and_process('data/jadwal_mahasiswa.csv')
     except:
         st.error("⚠️ File sample tidak ditemukan. Silakan upload CSV jadwal.")
         st.stop()
