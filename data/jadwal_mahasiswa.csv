@@ -1,51 +1,134 @@
 student_id,student_name,day,start_time,end_time,course,major
-A001,Bintang,Monday,07:00,09:30,Algoritma,Informatika
-A001,Bintang,Monday,13:00,15:30,Struktur Data,Informatika
-A001,Bintang,Wednesday,10:30,13:00,Basis Data,Informatika
-A001,Bintang,Thursday,15:30,17:10,Sistem Operasi,Informatika
-A001,Bintang,Friday,09:30,12:00,Matematika Diskrit,Informatika
-A002,Fadil,Tuesday,07:00,09:30,Basis Data,Sistem Informasi
-A002,Fadil,Tuesday,13:00,14:40,Manajemen TI,Sistem Informasi
-A002,Fadil,Wednesday,09:30,12:00,Pemrograman Web,Sistem Informasi
-A002,Fadil,Thursday,15:30,17:10,Jaringan Komputer,Sistem Informasi
-A002,Fadil,Friday,07:00,08:40,Statistika,Sistem Informasi
-A003,Nia,Monday,10:30,13:00,Algoritma,Informatika
-A003,Nia,Tuesday,13:00,15:30,Struktur Data,Informatika
-A003,Nia,Wednesday,07:00,09:30,Sistem Operasi,Informatika
-A003,Nia,Thursday,09:30,11:10,Basis Data,Informatika
-A003,Nia,Friday,13:00,15:30,Kecerdasan Buatan,Informatika
-A004,Rizky,Monday,13:00,15:30,Basis Data,Sistem Informasi
-A004,Rizky,Tuesday,09:30,12:00,Manajemen Proyek,Sistem Informasi
-A004,Rizky,Wednesday,15:30,17:10,Jaringan,Sistem Informasi
-A004,Rizky,Thursday,07:00,09:30,Sistem Informasi Enterprise,Sistem Informasi
-A004,Rizky,Friday,10:30,13:00,Statistika,Sistem Informasi
-A005,Salsa,Monday,07:00,08:40,Matematika Dasar,Informatika
-A005,Salsa,Tuesday,10:30,13:00,Algoritma,Informatika
-A005,Salsa,Wednesday,13:00,15:30,Struktur Data,Informatika
-A005,Salsa,Thursday,09:30,12:00,Basis Data,Informatika
-A005,Salsa,Friday,15:30,17:10,Sistem Operasi,Informatika
-A006,Dika,Monday,09:30,12:00,Pemrograman Web,Sistem Informasi
-A006,Dika,Tuesday,13:00,15:30,Basis Data,Sistem Informasi
-A006,Dika,Wednesday,07:00,09:30,Manajemen TI,Sistem Informasi
-A006,Dika,Thursday,13:00,15:30,Jaringan Komputer,Sistem Informasi
-A006,Dika,Friday,09:30,11:10,Statistika,Sistem Informasi
-A007,Aulia,Monday,15:30,17:10,Matematika Diskrit,Informatika
-A007,Aulia,Tuesday,07:00,09:30,Algoritma,Informatika
-A007,Aulia,Wednesday,10:30,13:00,Struktur Data,Informatika
-A007,Aulia,Thursday,13:00,15:30,Basis Data,Informatika
-A007,Aulia,Friday,07:00,09:30,Kecerdasan Buatan,Informatika
-A008,Yoga,Monday,07:00,09:30,Basis Data,Sistem Informasi
-A008,Yoga,Tuesday,15:30,17:10,Jaringan,Sistem Informasi
-A008,Yoga,Wednesday,13:00,15:30,Manajemen Proyek,Sistem Informasi
-A008,Yoga,Thursday,09:30,12:00,Sistem Informasi Enterprise,Sistem Informasi
-A008,Yoga,Friday,10:30,13:00,Statistika,Sistem Informasi
-A009,Putri,Monday,10:30,13:00,Algoritma,Informatika
-A009,Putri,Tuesday,07:00,09:30,Struktur Data,Informatika
-A009,Putri,Wednesday,15:30,17:10,Sistem Operasi,Informatika
-A009,Putri,Thursday,13:00,15:30,Basis Data,Informatika
-A009,Putri,Friday,09:30,12:00,Kecerdasan Buatan,Informatika
-A010,Rafi,Monday,13:00,15:30,Pemrograman Web,Sistem Informasi
-A010,Rafi,Tuesday,10:30,13:00,Basis Data,Sistem Informasi
-A010,Rafi,Wednesday,07:00,09:30,Manajemen TI,Sistem Informasi
-A010,Rafi,Thursday,15:30,17:10,Jaringan,Sistem Informasi
-A010,Rafi,Friday,07:00,08:40,Statistika,Sistem Informasi
+231201155,Muhammad Wahyu Rhomadhan,Senin,10:00,11:40,Rancangan Percobaan,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Senin,15:00,15:50,Praktikum Rancangan Percobaan,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Selasa,8:00,9:40,Konservasi Tanah dan Air,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Selasa,10:00,11:40,Fitogeografi,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Selasa,13:20,14:10,Praktikum Konservasi Tanah dan Air,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Selasa,15:00,15:50,Praktikum Fitogeografi,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Rabu,10:00,11:40,Agroforestry,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Rabu,13:20,14:10,Praktikum Agroforestry,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Kamis,10:00,11:40,Silvikultur Hutan Produksi,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Kamis,15:00,15:40,Ekologi Jenis Pohon Tropika,Kehutanan
+231201155,Muhammad Wahyu Rhomadhan,Jumat,8:00,9:40,Evaluasi Lahan,Kehutanan
+240501157,Christnauly Sipahutar,Senin,10:30,13:00,Komunikasi Antar Budaya,Ekonomi Pembangunan
+240501157,Christnauly Sipahutar,Senin,15:00,16:40,Tari Sumatera Utara,Ekonomi Pembangunan
+240501157,Christnauly Sipahutar,Selasa,14:00,15:30,Pengantar Bahasa Indonesia untuk Bahasa Asing,Ekonomi Pembangunan
+240501157,Christnauly Sipahutar,Rabu,13:00,15:30,Ekonomi Sumber Daya Alam,Ekonomi Pembangunan
+240501157,Christnauly Sipahutar,Rabu,15:30,18:00,Analisis Kependudukan,Ekonomi Pembangunan
+240501157,Christnauly Sipahutar,Kamis,10:30,13:00,Ekonometrika,Ekonomi Pembangunan
+240501157,Christnauly Sipahutar,Jumat,14:00,16:30,Metode Penelitian,Ekonomi Pembangunan
+230304093,Rizla Azizi,Selasa,12:40,14:20,Manajemen Penyiaran,Agribisnis
+230304093,Rizla Azizi,Selasa,14:30,16:10,E-Commerce Agribisnis,Agribisnis
+230304093,Rizla Azizi,Rabu,10:00,12:30,Produksi Ternak Potong dan Kerja,Agribisnis
+230304093,Rizla Azizi,Rabu,14:30,16:10,Future and Commodity Trading,Agribisnis
+230304093,Rizla Azizi,Kamis,8:00,10:30,Metodologi Riset Agribisnis,Agribisnis
+230304093,Rizla Azizi,Kamis,12:40,15:10,Ekonometrika,Agribisnis
+230304093,Rizla Azizi,Jumat,15:00,16:40,Praktikum Produksi Ternak Potong dan Kerja,Agribisnis
+251754066,Aqilla,Senin,8:00,10:30,Terapan Peluang dan Statistika,Statistika
+251754066,Aqilla,Senin,15:00,16:40,Pendidikan Kewarganegaraan,Statistika
+251754066,Aqilla,Selasa,13:00,14:40,Statistik Financial,Statistika
+251754066,Aqilla,Selasa,15:00,17:30,Aljabar Matriks Vektor,Statistika
+251754066,Aqilla,Rabu,13:00,15:30,Statistika Elementer,Statistika
+251754066,Aqilla,Rabu,15:00,16:40,Bahasa Indonesia,Statistika
+251754066,Aqilla,Kamis,16:00,17:40,Manajemen Penambangan Data,Statistika
+251754066,Aqilla,Jumat,8:00,10:30,Implementasi Kalkulus Vektor,Statistika
+251101024,Kumala Putri,Senin,13:00,14:40,MKWK Agama,Ilmu Keperawatan
+251101024,Kumala Putri,Selasa,10:10,11:50,MKWK Pendidikan Kewarganegaraan,Ilmu Keperawatan
+251101024,Kumala Putri,Rabu,8:00,9:00,Keterampilan Dasar Keperawatan (teori),Ilmu Keperawatan
+251101024,Kumala Putri,Rabu,9:30,12:00,Keterampilan Dasar Keperawatan (Skill Lab),Ilmu Keperawatan
+251101024,Kumala Putri,Rabu,13:00,15:30,Promkes dan Penkes (teori),Ilmu Keperawatan
+251101024,Kumala Putri,Rabu,15:40,18:10,Promkes dan Penkes (praktikum),Ilmu Keperawatan
+251101024,Kumala Putri,Kamis,8:00,9:40,Farmakologi Keperawatan (teori),Ilmu Keperawatan
+251101024,Kumala Putri,Kamis,10:00,11:40,Ilmu Dasar Keperawatan (teori),Ilmu Keperawatan
+251101024,Kumala Putri,Kamis,12:00,13:00,Falsafah dan teori keperawatan (teori),Ilmu Keperawatan
+251101024,Kumala Putri,Kamis,13:30,14:30,Komunikasi dasar keperawatan (teori),Ilmu Keperawatan
+251101024,Kumala Putri,Kamis,14:30,16:30,Farmakologi Keperawatan (praktikum),Ilmu Keperawatan
+251101024,Kumala Putri,Jumat,8:00,9:00,EHC (teori),Ilmu Keperawatan
+251101024,Kumala Putri,Jumat,9:30,11:30,Komunikasi dasar keperawatan (praktikum),Ilmu Keperawatan
+251101024,Kumala Putri,Jumat,13:30,15:30,Ilmu Dasar Keperawatan (praktikum),Ilmu Keperawatan
+251101024,Kumala Putri,Jumat,15:30,18:30,Keterampilan Dasar Keperawatan (Skill Lab 2),Ilmu Keperawatan
+241712062,Andri Wiguna,Senin,8:00,10:00,Praktikum AI,Teknik Informatika
+241712062,Andri Wiguna,Senin,10:30,12:30,Praktikum SIM,Teknik Informatika
+241712062,Andri Wiguna,Senin,13:30,14:00,Kewirausahaan,Teknik Informatika
+241712062,Andri Wiguna,Senin,14:20,15:10,Praktikum Kewirausahaan,Teknik Informatika
+241712062,Andri Wiguna,Senin,15:30,17:00,Kriptografi,Teknik Informatika
+241712062,Andri Wiguna,Selasa,8:00,10:00,Praktikum WEB II,Teknik Informatika
+241712062,Andri Wiguna,Selasa,10:30,12:30,PW II & Perancangan jaringan komputer,Teknik Informatika
+241712062,Andri Wiguna,Selasa,13:00,14:20,Komputasi Numerik,Teknik Informatika
+241712062,Andri Wiguna,Selasa,14:20,15:10,Praktikum Komputasi Numerik,Teknik Informatika
+241712062,Andri Wiguna,Selasa,15:30,17:10,AI,Teknik Informatika
+241712062,Andri Wiguna,Rabu,8:00,10:00,AI A1,Teknik Informatika
+241712062,Andri Wiguna,Rabu,10:30,12:30,Praktikum kripto,Teknik Informatika
+241712062,Andri Wiguna,Rabu,15:30,16:20,Sistem Informasi Manajemen,Teknik Informatika
+241712062,Andri Wiguna,Kamis,8:00,10:00,PBS A1,Teknik Informatika
+241712062,Andri Wiguna,Kamis,10:30,12:30,AI A2,Teknik Informatika
+241712062,Andri Wiguna,Kamis,13:00,15:10,Interaksi Manusia & Komputer,Teknik Informatika
+241712062,Andri Wiguna,Kamis,15:20,17:00,Analisis & Perancangan Sistem,Teknik Informatika
+241712062,Andri Wiguna,Jumat,8:00,10:10,PBS A2,Teknik Informatika
+241712062,Andri Wiguna,Jumat,10:30,12:30,Praktikum Perancangan jaringan komputer,Teknik Informatika
+250902101,Yazmin Kanaya Zuhrina Murti,Senin,10:10,11:50,Bahasa Indonesia,Ilmu Kesejahteraan Sosial
+250902101,Yazmin Kanaya Zuhrina Murti,Selasa,7:30,9:10,Pendidikan Pancasila,Ilmu Kesejahteraan Sosial
+250902101,Yazmin Kanaya Zuhrina Murti,Selasa,16:30,19:00,Matematika untuk Sosial Humaniora,Ilmu Kesejahteraan Sosial
+250902101,Yazmin Kanaya Zuhrina Murti,Rabu,8:00,9:40,Studi Kemiskinan,Ilmu Kesejahteraan Sosial
+250902101,Yazmin Kanaya Zuhrina Murti,Rabu,12:20,14:50,Manajemen Pelayanan Sosial,Ilmu Kesejahteraan Sosial
+250902101,Yazmin Kanaya Zuhrina Murti,Kamis,14:30,16:10,Sosiologi Keluarga untuk Kesejahteran Sosial,Ilmu Kesejahteraan Sosial
+250902101,Yazmin Kanaya Zuhrina Murti,Jumat,10:10,12:40,Metode-Metode Pekerjaan Sosial,Ilmu Kesejahteraan Sosial
+250902101,Yazmin Kanaya Zuhrina Murti,Jumat,14:30,17:00,Teori Sosiologi untuk Kesos,Ilmu Kesejahteraan Sosial
+250705118,Nur Atikah Masturah,Senin,13:00,14:40,Pendidikan Agama Islam,Sastra Inggris
+250705118,Nur Atikah Masturah,Selasa,13:00,14:40,Pendidikan Kewarganegaraan,Sastra Inggris
+250705118,Nur Atikah Masturah,Selasa,15:10,17:40,Matematika untuk Sosial Humaniora,Sastra Inggris
+250705118,Nur Atikah Masturah,Rabu,8:00,9:40,Phonetics and Phonology,Sastra Inggris
+250705118,Nur Atikah Masturah,Rabu,11:40,13:20,Genre Writing,Sastra Inggris
+250705118,Nur Atikah Masturah,Rabu,15:10,16:50,Sastra Bandingan,Sastra Inggris
+250705118,Nur Atikah Masturah,Kamis,8:00,9:40,Intermediate Speaking,Sastra Inggris
+250705118,Nur Atikah Masturah,Kamis,11:40,13:20,Intermediate English Grammar,Sastra Inggris
+250705118,Nur Atikah Masturah,Jumat,8:00,9:40,Intermediate Listening,Sastra Inggris
+250705118,Nur Atikah Masturah,Jumat,13:20,15:00,Intensive Reading,Sastra Inggris
+230802009,Nisrina Naziha,Senin,11.10,12.50,Polimer Adhesif,Kimia
+230802009,Nisrina Naziha,Senin,13.30,15.10,Rekayasa Genetika,Kimia
+230802009,Nisrina Naziha,Selasa,09.20,11.00,Kimia Organologam Non-Tansisi,Kimia
+230802009,Nisrina Naziha,Selasa,11.10,13.40,Dasar Reaksi Anorganik,Kimia
+230802009,Nisrina Naziha,Selasa,13.30,15.10,Membran Polimer,Kimia
+230802009,Nisrina Naziha,Kamis,07.30,09.10,Pengolahan Kimia Karet,Kimia
+230802009,Nisrina Naziha,Kamis,09.20,11.00,Teknik Penelitian Kimia Organik,Kimia
+230802009,Nisrina Naziha,Kamis,11.10,12.50,Fitokimia,Kimia
+230802009,Nisrina Naziha,Kamis,13.30,15.10,Mikrobiologi Industri,Kimia
+241753057,Kristina Cintia Bella Gulo,Selasa,08.00,10.30,Perekonomian Indonesia,Akuntansi Sektor Publik
+241753057,Kristina Cintia Bella Gulo,Rabu,10.00,12.30,Pengantar Data Analitik Akuntansi,Akuntansi Sektor Publik
+241753057,Kristina Cintia Bella Gulo,Rabu,14.00,16.30,Manajemen Aset dan Kas Publik,Akuntansi Sektor Publik
+241753057,Kristina Cintia Bella Gulo,Kamis,08.00,09.40,Perpajakan Sektor Publik,Akuntansi Sektor Publik
+241753057,Kristina Cintia Bella Gulo,Kamis,15.00,17.30,Pelaporan Digital dan Pembuatan Dasbor,Akuntansi Sektor Publik
+241753057,Kristina Cintia Bella Gulo,Jumat,08.00,11.20,Akuntansi Keuangan dan Lanjutan,Akuntansi Sektor Publik
+241753057,Kristina Cintia Bella Gulo,Jumat,14.00,16.30,Akuntansi Berbasis Cloud dan Aplikasinya,Akuntansi Sektor Publik
+250707009,Nazwa Aulia Fadillah ,Senin,15.20,17.00,Pendidikan Agama Islam,Etnomusikologi
+250707009,Nazwa Aulia Fadillah ,Selasa,08.00,09.40,Teori Musik Barat II,Etnomusikologi
+250707009,Nazwa Aulia Fadillah ,Selasa,13.00,14.40,Pendidikan Kewarganegaraan,Etnomusikologi
+250707009,Nazwa Aulia Fadillah ,Rabu,11.40,15.00,Musik dan Pendidikan,Etnomusikologi
+250707009,Nazwa Aulia Fadillah ,Rabu,15.20,17.00,Musikologi Nusantar II,Etnomusikologi
+250707009,Nazwa Aulia Fadillah ,Kamis,08.00,09.40,Seni Pentunjukan Sumatra Utar,Etnomusikologi
+250707009,Nazwa Aulia Fadillah ,Kamis,09.50,11.30,Musikologi Sumatra Utara,Etnomusikologi
+250707009,Nazwa Aulia Fadillah ,Kamis,15.10,16.50,"Teori, Metode Dan Terapan Etnomusikologi I",Etnomusikologi
+250707009,Nazwa Aulia Fadillah ,Jumat,09.50,11.30,Praktek Musik Sumatera Utara II/Musik Nias,Etnomusikologi
+240707024,Nazli Abdillah ,Senin,09.50,11.30,Trankripsi AnalisisII,Etnomusikologi
+240707024,Nazli Abdillah ,Selasa,08.00,10.30,Bengkel Instrumen,Etnomusikologi
+240707024,Nazli Abdillah ,Selasa,11.40,14.10,Kearifan Lokal,Etnomusikologi
+240707024,Nazli Abdillah ,Rabu,11.40,13.20,Praktek Teater Sumatera Utara,Etnomusikologi
+240707024,Nazli Abdillah ,Rabu,15.10,16.50,Penelitian Lapangan Etnomusikologi,Etnomusikologi
+240707024,Nazli Abdillah ,Jumat,08.00,09.40,Praktek Musik Dunia II/ Biola,Etnomusikologi
+240707024,Nazli Abdillah ,Jumat,09.50,11.30,Praktek Musik Nusantara II/ Musik Angklung,Etnomusikologi
+240707024,Nazli Abdillah ,Jumat,11.40,13.20,Praktek Tari Sumatera Utara/ Tari Melayu,Etnomusikologi
+251101219,Fedhya Zelila Putri ,Senin,10:10,11:50,MKWK Agama,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Selasa,15:20,17:00,MKWK Pendidikan Kewarganegaraan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Rabu,8:00,9:40,Farmakologi keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Rabu,10:00,11:40,Ilmu dasar keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Rabu,13:00,14:00,EHC (teori),Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Rabu,14:00,16:00,Farmakologi keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Kamis,8:00,8:50,Komunikasi dasar keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Kamis,9:00,10:00,Keterampilan dasar keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Kamis,10:00,13:00,Keterampilan dasar keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Kamis,13:30,15:30,Komunikasi dasar keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Kamis,16:00,18:30,Keterampilan dasar keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Jumat,8:00,8:50,Falsafah dan teori keperawatan (teori),Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Jumat,9:30,12:00,Ilmu dasar keperawatan,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Jumat,13:30,15:30,Promkes dan penkes,Ilmu Keperawatan
+251101219,Fedhya Zelila Putri ,Jumat,15:30,17:30,Promkes dan penkes,Ilmu Keperawatan
